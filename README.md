@@ -8,6 +8,9 @@ The usage of each method is specified below.
 ## Histogram of Oriented Gradients (HOG)
 For HOG, please change the path to the folder and run the Jupyter notebook program (CS549.ipynb) step by step to get the results. Or just load the trained linear SVM to predict the results. 
 
+The below figures show the result of some test images run on the HOG+KNN classifier.
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/HOG/image4.png "1")
+
 ## Speeded Up Robust Features (SURF) Library Method:
 For SURF, use the files on test images.
   run_surf_8ball.m
@@ -20,6 +23,10 @@ Before running, have your cropped files ready from your OpenCV annotations. If y
 Change line 36 to the img you want to test. Lines 30-36 have commented out file names that can be used if you want to test them for different images. As is, it will output a demo with a bounding box. Uncomment lines 89+ to run batch testing. Variable SrcFiles is the file location for all your .png files. Change this variable to the file location for all the images you want to store and then add onto it '\*.png'. 
 
 This will store all the png file names, which will be called in the next portion. The rest of the first portion of the code is a loop to run surf on all of these files and store their information in cells. For ~500 images it may take about 12 seconds. The next portion takes an image and extracts surf features from it. The variable is Ka, be sure to change the file name if you want to test other pictures. This portion is timed, the algorithm will attempt to match the features to each of the cells you stored earlier, then records the info for best match. This info is used to create the bounding box in the image. It takes image Ka =>rgb2gray=> K =>compare Matched points => K => bounding box from matched points => Q. Then it imshows Q.
+
+The below figures show the result of some test images run on the SURF classifier.
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/SURF/image28.png "1")
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/SURF/image7.png "1")
 
 ## Local Binary Pattern Cascade of Classifiers (LBP)
 Use the folders:
@@ -46,10 +53,16 @@ After pasting a test image in the same folder as these scripts along with the we
 
 If you would like to train your own Haar cascade of classifier follow the steps here: https://docs.opencv.org/master/dc/d88/tutorial_traincascade.html
 
+The below figures show the result of some test images run on the Haar classifier.
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/Haar/image13.png "1")
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/Haar/image24.png "1")
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/Haar/image29.png "1")
+
 ## You Only See Once (YOLOv2)
 We used the same architecture and steps for training as done here : https://pjreddie.com/darknet/ 
-
-The below figures show the result of some test images run on .
+The below figures show the result of some test images run on YOLOv2.
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/YOLO/image18.png "1")
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/YOLO/image23.png "2")
 
 We thank Prof. Michael A. Gennert for his advice and guidance without which we would not have been able to do this project.
 
