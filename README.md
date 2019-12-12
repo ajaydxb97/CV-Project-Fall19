@@ -7,3 +7,5 @@ In this project we aim to locate and recognize an 8-ball and a black yo-yo in a 
 For the HOG, please change the path to the folder and run the program step by step to get the results. Or just load the trained linear SVM to predict the results. 
 
 We use several techniques for accomplishing this task.
+
+For the YOLOv2, we used the darknet framework available here and modified the cfg file, the labels.txt the images and annotations as mentionned in the report. The darknet framework can be found here: https://github.com/pjreddie/darknet.
