@@ -34,7 +34,7 @@ If you would like to train your own LBP cascade of classifier follow the steps h
 The below figures show the result of some test images run on the LBP classifier.
 ![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/LBP/image11.png "1")
 ![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/LBP/image27.png "1")
-![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/LBP/image31.png.png "1")
+![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/LBP/image31.png "1")
 
 ## Haar Cascade Cascade of Classifiers
 Use the folders:
