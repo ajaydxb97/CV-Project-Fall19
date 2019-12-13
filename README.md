@@ -58,7 +58,7 @@ The below figures show the result of some test images run on the Haar classifier
 ![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/Haar/image24.png "1")
 ![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/Haar/image29.png "1")
 
-## You Only See Once (YOLOv2)
+## You Only Look Once (YOLOv2)
 We used the same architecture and steps for training as done here : https://pjreddie.com/darknet/ 
 The below figures show the result of some test images run on YOLOv2.
 ![alt text](https://github.com/ajaydxb97/CV-Project-Fall19/blob/master/YOLO/image18.png "1")
